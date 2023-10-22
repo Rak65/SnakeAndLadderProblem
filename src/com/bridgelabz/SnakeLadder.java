@@ -2,8 +2,9 @@ package com.bridgelabz;
 
 public class SnakeLadder {
     public static void main(String[] args) {
-        System.out.println("Start the snake and ladder Game");
-        //Single player position
-        System.out.println("Single player at position 0");
+
+        //when a player rolls the die
+        int output=(int)(Math.random() * 6) + 1;
+        System.out.println("The dice number is: "+ output);
     }
 }
